@@ -1,13 +1,7 @@
 export default {
   plugins: {
     autoprefixer: {
-      overrideBrowserslist: [
-        "Android 4.1",
-        "iOS 7.1",
-        "Chrome > 31",
-        "ff > 31",
-        "ie >= 8",
-      ],
+      overrideBrowserslist: ["> 0.5%", "last 2 versions", "not dead"],
     },
     "postcss-pxtorem": {
       // -- Vant 官方根字体大小是 37.5

@@ -10,12 +10,12 @@
 
 # 说明
 
-- 技术：Vite<sup>5</sup>、Vue<sup>3</sup> 、TypeScirpt、Vant、Pinia
+- 技术：Vite<sup>6</sup>、Vue<sup>3</sup> 、TypeScirpt、Vant、Pinia
 - 模式：支持 **MP（微信公众号/支付宝生活号）**、**H5**、**混合开发（原生嵌套H5）** 模式
 - 环境：
-  - node：<mark>v20.12.1</mark>
-  - npm：<mark>v9.1.4</mark>
-  - vite：<mark>v5.3.5</mark>
+  - node：<mark>v22.11.0</mark>
+  - pnpm：<mark>v9.14.2</mark>
+  - vite：<mark>v6.0.0</mark>
 
 **关于一些库的介绍：**
 
