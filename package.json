@@ -1,5 +1,5 @@
 {
-  "name": "vue-template",
+  "name": "vite-template-vue",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -13,28 +13,29 @@
     "@likg/bus": "^1.0.1",
     "@likg/js-bridge": "^1.0.1",
     "@likg/schemes": "^1.0.2",
-    "@likg/tools": "^1.0.23",
-    "@likg/validator": "^1.0.7",
-    "axios": "^1.7.3",
-    "pinia": "^2.2.0",
-    "vant": "^4.9.4",
-    "vue": "^3.4.35",
-    "vue-router": "^4.4.2"
+    "@likg/tools": "^2.0.1",
+    "@likg/validator": "^1.0.9",
+    "axios": "^1.7.8",
+    "pinia": "^2.2.6",
+    "vant": "^4.9.9",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
   },
   "devDependencies": {
-    "@types/node": "^20.14.14",
+    "@types/node": "^22.10.0",
     "@vant/auto-import-resolver": "^1.2.1",
-    "@vitejs/plugin-legacy": "^5.4.1",
-    "@vitejs/plugin-vue": "^5.1.2",
+    "@vitejs/plugin-legacy": "^6.0.0",
+    "@vitejs/plugin-vue": "^5.2.1",
     "autoprefixer": "^10.4.20",
-    "less": "^4.2.0",
+    "less": "^4.2.1",
     "mockjs": "^1.1.0",
     "postcss-pxtorem": "^6.1.0",
-    "typescript": "^5.5.4",
-    "unplugin-vue-components": "^0.27.3",
+    "terser": "^5.36.0",
+    "typescript": "~5.6.2",
+    "unplugin-vue-components": "^0.27.4",
     "vconsole": "^3.15.1",
-    "vite": "^5.3.5",
-    "vite-plugin-mock": "3.0.2",
-    "vue-tsc": "^2.0.29"
+    "vite": "^6.0.0",
+    "vite-plugin-mock": "^3.0.2",
+    "vue-tsc": "^2.1.10"
   }
 }

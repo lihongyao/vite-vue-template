@@ -1,10 +1,3 @@
-<!--
- * @Author: Li-HONGYAO
- * @Date: 2021-03-25 22:55:35
- * @LastEditTime: 2021-11-30 20:22:27
- * @LastEditors: Lee
- * @Description: 
--->
 <template>
   <div class="lg-picker-res" @click="visible = true">
     {{ value || "请选择" }}

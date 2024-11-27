@@ -36,14 +36,12 @@ class LibForWeixin {
     } = options;
     // 2. 解析redirect_uri
     let redirect_uri = encodeURIComponent(
-      `${window.location.origin}${
-        base ? base.slice(0, base.length - 1) : ""
+      `${window.location.origin}${base ? base.slice(0, base.length - 1) : ""
       }${path}`
     );
     // 3. 跳转授权页
     window.location.replace(
-      `https://open.weixin.qq.com/connect/oauth2/authorize?appid=${appid}&redirect_uri=${redirect_uri}&response_type=code&scope=${scope}&state=${
-        state ? encodeURIComponent(state) : ""
+      `https://open.weixin.qq.com/connect/oauth2/authorize?appid=${appid}&redirect_uri=${redirect_uri}&response_type=code&scope=${scope}&state=${state ? encodeURIComponent(state) : ""
       }#wechat_redirect`
     );
   }
@@ -58,7 +56,7 @@ class LibForWeixin {
     return new Promise(async (resolve, reject) => {
       // 1. 处理url（注：iOS 需拿到进入时的URL，已动态记录存入全局window对象，key值为：CONFIG_URL_FOR_IOS）
       let url = "";
-      if (Validator.ios()) {
+      if (Validator.isiOS()) {
         url = window.CONFIG_URL_FOR_IOS;
       } else {
         url = window.location.href;

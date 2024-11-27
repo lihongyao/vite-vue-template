@@ -1,12 +1,3 @@
-<!--
- * @Author: Li-HONGYAO
- * @Date: 2021-06-04 20:37:16
- * @LastEditTime: 2021-11-30 20:21:44
- * @LastEditors: Lee
- * @Description: 
--->
-
-
 <template>
   <div :class="`picker-address ${visible ? 'visible' : ''}`">
     <div class="picker-address__contents" @click.stop="">

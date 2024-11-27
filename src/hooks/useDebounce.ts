@@ -1,10 +1,3 @@
-/*
- * @Author: Li-HONGYAO
- * @Date: 2021-06-29 22:16:55
- * @LastEditors: Li-HONGYAO
- * @LastEditTime: 2021-06-29 22:17:55
- * @Description:
- */
 export default function useDebounce<T extends Function>(fn: T, delay = 200): T {
   if (delay <= 0) return fn;
 

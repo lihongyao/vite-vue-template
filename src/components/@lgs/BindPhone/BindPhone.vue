@@ -102,7 +102,7 @@ export default defineComponent({
 
     // watch
     watchEffect(() => {
-      if (!Validator.tel(state.phone) || state.code.length !== 6) {
+      if (!Validator.isTel(state.phone) || state.code.length !== 6) {
         state.canBind = false;
       } else {
         state.canBind = true;
@@ -111,7 +111,7 @@ export default defineComponent({
     watch(
       () => state.phone,
       (phone) => {
-        state.canSendCode = Validator.tel(phone);
+        state.canSendCode = Validator.isTel(phone);
       }
     );
     // life circles
